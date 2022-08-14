@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "gaekoolparking",
+    "name": "개꿀주차",
     "slug": "gaekoolparking",
     "version": "1.0.0",
+    "icon": "./assets/icon-android.png",
     "orientation": "portrait",
-    "icon": "./assets/mainlogo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,7 +19,13 @@
     ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.gaekoolparking.mobile"
+      "bundleIdentifier": "com.gaekoolparking.mobile",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#F87007"
+      },
+      "icon": "./assets/icon.png"
     },
     "android": {
       "package": "com.gaekoolparking.mobile",
@@ -36,11 +42,12 @@
       "splash": {
         "image": "./assets/splash.png",
         "resizeMode": "contain",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#F87007"
+      },
+      "icon": "./assets/icon-android.png"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     }
   }
 }
