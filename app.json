@@ -18,12 +18,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
+      "package": "com.gaekoolparking.mobile",
+      "versionCode": 2,
+      "icon": "./assets/mainlogo.png",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCTHYfaMh7RO6NOUgirpC-JvyyJp4v8NBU"
+        }
+      },
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
       }
     },
     "web": {
