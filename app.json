@@ -25,7 +25,10 @@
         "resizeMode": "contain",
         "backgroundColor": "#F87007"
       },
-      "icon": "./assets/icon.png"
+      "icon": "./assets/icon.png",
+      "infoPlist": {
+          "NSLocationWhenInUseUsageDescription": "가장 가까운 주차장 표시를 위해 위치 권한이 필요합니다",
+      }
     },
     "android": {
       "package": "com.gaekoolparking.mobile",
